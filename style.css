@@ -589,37 +589,37 @@ footer .copyright {
   margin: 50px;
 }
 
-.small-image-group{
+#page-header .small-image-group{
   display: flex;
   justify-content: flex-start ;
   padding-left: 30%;
 }
 
-.small-image-col{
+#page-header .small-image-col{
   flex-basis: 24%;
   cursor: pointer;
 }
 
-.single-pro-details{
+#page-header .single-pro-details{
   width: 50%;
   padding-top: 30px;
 }
 
-.single-pro-details h4{
+#page-header .single-pro-details h4{
   padding: 40px 0 20px 0;
 }
 
-.single-pro-details h2{
+#page-header .single-pro-details h2{
   font-size: 26px;
 }
 
-.single-pro-details select{
+#page-header .single-pro-details select{
   display: block;
   padding: 5px 10px;
   margin-bottom: 10px;
 }
 
-.single-pro-details input{
+#page-header .single-pro-details input{
   width: 50px;
   height: 47px;
   padding-left: 10px;
@@ -627,17 +627,22 @@ footer .copyright {
   margin-right: 10px;
 }
 
-.single-pro-details input:focus{
+#page-header .single-pro-details input:focus{
   outline: none;
 }
 
-.single-pro-details button{
+#page-header .single-pro-details button{
   background: #088178;
   color: #fff;
 }
 
-.single-pro-details span{
+#page-header .single-pro-details span{
   line-height: 25px;
+}
+
+#page-header .blog-header{
+  background-image: url(Images/banner/b19.jpg);
+  
 }
 
 @media (max-width: 799px) {
@@ -771,15 +776,15 @@ footer .copyright {
  footer .copyright{
   text-align: start;
  }
- #prodtails{
+ #prodetails{
   display: flex;
   flex-direction: column;
  }
- #prodetails .single-pro-image{
+ #prodeails .single-pro-image{
   width: 100%;
-  margin-right: 0;
+  margin-right: 0px;
  }
  #prodetails .single-pro-details{
-  margin: 100%;
+  width: 100%;
  }
 }
