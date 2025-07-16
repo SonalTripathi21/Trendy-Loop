@@ -12,6 +12,7 @@ if ("close") {
     nav.classList.remove("active");
   });
 }
+
 // script.js
 
 // 1. ADD TO CART FROM INDEX/SHOP PAGE
